@@ -1,6 +1,8 @@
 //FONTS
 // ici sont chargés les fonts
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 // TOOLS
 // mixins et fonctions utilisés globalement dans le SCSS (Sass)
 @import 'tools/typo';
@@ -27,3 +29,10 @@
 // Composants d'interface utilisateur spécifiques.
 // C’est là que la majorité de notre travail a lieu.
 @import 'components/icons';
+@import '../../node_modules/swiper/swiper-bundle';
+
+@import 'components/header';
+@import 'components/hero';
+@import 'components/labo';
+@import 'components/tp';
+@import 'components/footer';
