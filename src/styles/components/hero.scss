@@ -1,0 +1,26 @@
+.hero {
+    .zone_media {
+        background: linear-gradient(
+                180deg,
+                rgba(0, 0, 0, 0) 0%,
+                rgba(0, 0, 0, 0.4) 100%
+            ),
+            url(<path-to-image>) lightgray 0px -210.533px / 100% 124.711% no-repeat;
+    }
+    .wrapper {
+        display: flex;
+        height: 866px;
+
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+
+        .content {
+            display: flex;
+            width: 633px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+    }
+}
