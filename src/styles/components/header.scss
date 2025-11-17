@@ -1,0 +1,19 @@
+.header {
+    background: rgba(0, 0, 0, 0.6);
+
+    position: absolute;
+    z-index: 3;
+
+    width: 100%;
+
+    top: 0;
+    left: 0;
+
+    .wrapper {
+        display: flex;
+        padding: 25px 0;
+
+        display: flex;
+        justify-content: center;
+    }
+}

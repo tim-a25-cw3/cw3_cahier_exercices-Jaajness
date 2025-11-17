@@ -24,8 +24,11 @@ h1 {
     font-size: var(--font-size-h1);
     font-family: var(--font-primary);
     font-weight: 700;
+    line-height: 100%;
 
     color: var(--color-primary);
+
+    margin: 0;
 }
 
 h2 {
@@ -51,7 +54,7 @@ p,
 
 .header {
     font-size: #{typo(20px)};
-    font-weight: 600;
+
     text-transform: uppercase;
 }
 
