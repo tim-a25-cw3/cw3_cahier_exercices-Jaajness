@@ -18,6 +18,25 @@ class Main {
         pagination: {
           el: '.swiper-pagination',
         },
+        slidesPerView: 1,
+        spaceBetween: 30,
+
+        breakpoints: {
+          480: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+          },
+
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 60,
+          },
+
+          1024: {
+            slidesPerView: 1,
+            spaceBetween: 97,
+          },
+        },
       });
     }
   }

@@ -1,19 +1,15 @@
 .header {
     background: rgba(0, 0, 0, 0.6);
 
-    position: absolute;
+    position: fixed;
     z-index: 3;
 
     width: 100%;
 
+    padding: 25px 0;
+
+    text-align: center;
+
     top: 0;
     left: 0;
-
-    .wrapper {
-        display: flex;
-        padding: 25px 0;
-
-        display: flex;
-        justify-content: center;
-    }
 }

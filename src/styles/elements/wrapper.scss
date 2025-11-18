@@ -4,7 +4,11 @@
 
 .wrapper {
     max-width: $breakpoint-lg;
-    width: calc(100% - var(--spacing-md));
+
     margin: 0 auto;
-    padding: 80px 110px;
+    padding: 0 110px;
+
+    @media (width <= 480px) {
+        padding: 60px 30px;
+    }
 }

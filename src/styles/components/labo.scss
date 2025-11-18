@@ -5,8 +5,8 @@
         display: flex;
 
         flex-direction: column;
-        align-items: flex-start;
-        gap: 100px;
+        align-items: start;
+        gap: var(--spacing-xl);
         align-self: stretch;
     }
 }

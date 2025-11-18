@@ -1,16 +1,19 @@
 .footer {
     background-color: var(--color-black);
 
+    padding: 40px 0;
+
     .wrapper {
-        padding: 40px 110px;
+        @media (width <= 480px) {
+            padding: 30px 40px;
+        }
     }
 
     .content {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 30px;
-        align-self: stretch;
+        gap: var(--spacing-md);
     }
 
     .titre_description {
@@ -18,7 +21,6 @@
         flex-direction: column;
         align-items: center;
         gap: 4px;
-        align-self: stretch;
     }
 
     .social_media {
