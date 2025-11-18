@@ -6,7 +6,7 @@ h2,
 h3,
 h4,
 p,
-.btn {
+.bouton {
     font-family: var(--font-secondary);
     line-height: 150%;
     font-weight: 300;
@@ -44,12 +44,16 @@ h4 {
 }
 
 p,
-.btn {
+.bouton {
     font-size: #{typo(16px)};
 }
 
-.btn {
+.bouton {
     font-weight: 700;
+    color: var(--color-black);
+
+    letter-spacing: 0.64px;
+    text-transform: uppercase;
 }
 
 .header {
@@ -70,4 +74,21 @@ p,
 
 span {
     font-weight: 600;
+}
+
+.labo h3,
+.labo h2 {
+    color: rgba(255, 255, 255, 0.55);
+
+    & span {
+        color: rgba(255, 255, 255, 1);
+    }
+}
+
+.tp h3 {
+    color: rgba(0, 0, 0, 0.55);
+
+    & span {
+        color: rgba(0, 0, 0, 1);
+    }
 }
