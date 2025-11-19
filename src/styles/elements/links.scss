@@ -18,10 +18,40 @@ a {
 
     border-radius: 100px;
     background: var(--color-primary);
+}
 
-    &.noir {
-        background: var(--color-black);
-        color: var(--color-white);
-        fill: var(--color-white);
+.blanc {
+    background: var(--color-white);
+    color: var(--color-black);
+    fill: var(--color-black);
+
+    transition: all 0.3s ease-in-out;
+
+    .chevron {
+        display: block;
+
+        opacity: 1;
+    }
+
+    .arrow {
+        display: none;
+        opacity: 0;
+    }
+
+    &:hover {
+        padding: 8px 28px;
+        border-radius: 100px;
+        border: 2px solid #e3e4e6;
+        background: linear-gradient(99deg, #bc3cd8 0.07%, #c54b8c 106.32%);
+
+        .chevron {
+            display: none;
+            opacity: 0;
+        }
+
+        .arrow {
+            display: block;
+            opacity: 1;
+        }
     }
 }

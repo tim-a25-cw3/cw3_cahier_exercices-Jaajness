@@ -43,19 +43,15 @@
     width: 60%;
 }
 
-.media_gradient {
-    position: relative;
-
-    .gradient {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: linear-gradient(
-            180deg,
-            rgba(0, 0, 0, 0) 0%,
-            rgba(0, 0, 0, 0.4) 100%
-        );
-    }
+.gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.4) 100%
+    );
 }
